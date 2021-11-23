@@ -1,0 +1,22 @@
+.Modal--background {
+  height: 90vh;
+  width: 300px;
+  background: rgba(48, 48, 48, 0.666);
+  border: none;
+  border-radius: 20px!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+  transition: .3s ease;
+}
+#modal {
+  position: fixed;
+  top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}

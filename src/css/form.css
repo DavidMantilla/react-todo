@@ -1,0 +1,67 @@
+.modalContent{
+background-color: rgba(237, 235, 235, 0.994);
+border-radius:10px;
+padding: 20px  10px ;
+width: 250px;
+
+}
+
+label{
+    color:#333131;
+    font-weight: 500;
+    margin-bottom:50px;
+    padding-bottom: 30px;
+
+}
+
+button{
+  
+    padding:13px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+    font-size: 12px;
+}
+.form-group{
+    display: flex;
+    justify-content:space-between
+
+}
+
+.buttonAcep{
+    color:azure;
+    background: #5b9151;
+}
+.buttonCancel{
+    color:azure;
+  background: #ae2222;
+}   
+textarea{
+    width: 90%;
+    border-radius: 14px;
+    border:none;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.error{
+    background: #f08181;
+
+}
+.lblerror{
+    color: #ca2f2f;
+    font-size: 12px;
+
+}
+
+
+.buttonAcep:hover,
+.buttonAcep:focus{
+    color:azure;
+    background: #80af79;
+}
+.buttonCancel:hover,
+.buttonCancel:focus{
+    color:azure;
+  background: #e13f3f;
+}
